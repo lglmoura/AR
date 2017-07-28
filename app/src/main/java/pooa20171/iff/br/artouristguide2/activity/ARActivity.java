@@ -1,4 +1,4 @@
-package pooa20171.iff.br.artouristguide2;
+package pooa20171.iff.br.artouristguide2.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.wikitude.architect.ArchitectStartupConfiguration;
 import com.wikitude.architect.ArchitectView;
 
+import pooa20171.iff.br.artouristguide2.R;
 import pooa20171.iff.br.artouristguide2.util.KeyWikitude;
 
 public class ARActivity extends AppCompatActivity {

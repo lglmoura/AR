@@ -1,4 +1,4 @@
-package pooa20171.iff.br.artouristguide2;
+package pooa20171.iff.br.artouristguide2.activity;
 
 import android.Manifest;
 import android.app.Activity;
@@ -15,6 +15,8 @@ import com.wikitude.architect.ArchitectView;
 import com.wikitude.common.permission.PermissionManager;
 
 import java.util.Arrays;
+
+import pooa20171.iff.br.artouristguide2.R;
 
 public class MainActivity extends Activity {
 
