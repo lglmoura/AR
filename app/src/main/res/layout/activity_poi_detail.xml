@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pooa20171.iff.br.artouristguide2.util.PoiDetailActivity">
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="368dp" android:layout_height="wrap_content" android:padding="10dip"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/poi_id" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/poi_id"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:padding="10dip"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/poi_name" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/poi_title"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:padding="10dip"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/poi_description" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/poi_description"/>
+    </LinearLayout>
+
+</LinearLayout>
