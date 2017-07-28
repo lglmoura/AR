@@ -51,7 +51,7 @@
         <activity
             android:name=".ARActivity"
             android:configChanges="screenSize|orientation" />
-        <activity android:name=".util.SampleCamActivity" />
+        <activity android:name=".util.CameraActivity" />
         <activity android:name=".util.PoiDetailActivity"></activity>
     </application>
 

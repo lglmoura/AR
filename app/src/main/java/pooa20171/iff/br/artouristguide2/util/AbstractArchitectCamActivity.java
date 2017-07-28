@@ -4,12 +4,6 @@ package pooa20171.iff.br.artouristguide2.util;
  * Created by lglmo on 28/07/2017.
  */
 
-import java.io.IOException;
-import java.util.HashMap;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.pm.ApplicationInfo;
@@ -24,11 +18,18 @@ import android.webkit.WebView;
 import android.widget.Toast;
 
 import com.wikitude.architect.ArchitectJavaScriptInterfaceListener;
+import com.wikitude.architect.ArchitectStartupConfiguration;
 import com.wikitude.architect.ArchitectView;
 import com.wikitude.architect.ArchitectView.SensorAccuracyChangeListener;
-import com.wikitude.architect.ArchitectStartupConfiguration;
 import com.wikitude.architect.services.camera.CameraLifecycleListener;
 import com.wikitude.common.camera.CameraSettings;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.util.HashMap;
+
 import pooa20171.iff.br.artouristguide2.R;
 
 /**
